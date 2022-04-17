@@ -1,9 +1,10 @@
 import java.util.*
+import test
 fun main() {
     val input = Scanner(System.`in`)
     val a = input.nextInt()
     var b = input.nextInt()
-    val PI = 3.141592653589793
+    var classtest = test()
     println("Program arguments: $a < $b")
     println("Result: ${a < b}")
     println()
@@ -28,9 +29,9 @@ fun main() {
     println("Program arguments: $a * $b")
     println("Result: ${a * b}")
     println()
-    println("Program arguments: $PI < $b")
-    println("Result: ${PI < b}")
+    println("Program arguments: ${classtest.PI} < $b")
+    println("Result: ${classtest.PI} < b}")
     println()
-    println("Program arguments: $PI > $b")
-    println("Result: ${PI > b}")
+    println("Program arguments: ${classtest.PI} > $b")
+    println("Result: ${classtest.PI} > b}")
 }
