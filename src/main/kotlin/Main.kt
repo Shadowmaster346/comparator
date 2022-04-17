@@ -30,8 +30,8 @@ fun main() {
     println("Result: ${a * b}")
     println()
     println("Program arguments: ${classtest.PI} < $b")
-    println("Result: ${classtest.PI} < b}")
+    println("Result: ${classtest.PI < b}")
     println()
     println("Program arguments: ${classtest.PI} > $b")
-    println("Result: ${classtest.PI} > b}")
+    println("Result: ${classtest.PI > b}")
 }
